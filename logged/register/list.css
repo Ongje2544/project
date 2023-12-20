@@ -1,0 +1,7 @@
+.box{
+    background-color: #fff;
+}
+
+.box:hover{
+    background-color: rgb(67, 234, 67);
+}

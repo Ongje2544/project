@@ -1,0 +1,11 @@
+.case {
+    border-radius: 20px;
+    background: linear-gradient(to right, #2da28e, #339870 ,#278f65,#058e77);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+    height: 17rem;
+    width: 45rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: left;
+}

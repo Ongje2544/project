@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Mitr;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 720px;
+    height: 490px;
+    position: relative;
+    margin: 6% auto;
+    background: #ffd0fd;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.Hder{
+    width: 100%;
+    height: 35px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #ffc64a,#cf00da);
+} 
+
+.input-group{
+    top: 130px;
+    padding-left: 50px;
+    width: 280px;
+}
+.input-field{
+    position: absolute;
+    width: 280px;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.input-group .input-field[name="fname"]{
+    left: 8%;
+    top: 15%;
+    border-bottom: 1px solid #999;
+}
+.input-group .input-field[name="lname"]{
+    left: 54%;
+    top: 15%;
+    border-bottom: 1px solid #999;
+}
+.input-group .input-field[name="uname"]{
+    left: 8%;
+    top: 25%;
+    border-bottom: 1px solid #999;
+}
+.input-group .input-field[name="password"]{
+    left: 54%;
+    top: 25%;
+    border-bottom: 1px solid #999;
+}
+.input-group .input-field[name="re_password"]{
+    left: 8%;
+    top: 35%;
+    border-bottom: 1px solid #999;
+}
+
+.input-group .input-field[name="email"]{
+    left: 54%;
+    top: 35%;
+    border-bottom: 1px solid #999;
+}
+.input-group .input-field[name="callnum"]{
+    left: 8%;
+    top: 45%;
+    border-bottom: 1px solid #999;
+}
+.input-group .input-field[name="lineid"]{
+    left: 54%;
+    top: 45%;
+    border-bottom: 1px solid #999;
+}
+.input-group .input-field[name="address"]{
+    left: 8%;
+    top: 55%;
+    border-bottom: 1px solid #999;
+}
+.input-group .input-field[name="zip"]{
+    left: 54%;
+    top: 55%;
+    border-bottom: 1px solid #999;
+}
+
+
+
+
+.submit-btn{
+    position: absolute;
+    left: 250px;
+    width: 250px;
+    top: 80%;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff4bb4,#ff9532);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    transition: 0.8s;
+}
+.submit-btn:hover{
+    width: 265px;
+    left: 242.5px;
+    top: 78.5%;
+    background: linear-gradient(to right, #4eff89,#00b1f7);
+    color: white;
+}
+.check-box{
+    margin: 30px  10px 30px 0;
+}
+
+span{
+    color: #777;
+    font-size: 14px;
+    position: absolute;
+    bottom: 20%;
+    left: 11%
+}
+
+#register{
+    top: 20%;
+    left: 70px;
+}
+.error{
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+}
+.success{
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+}
